@@ -1,0 +1,135 @@
+*{
+    padding: 0px;
+    margin: 0px;
+
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(./download.jpeg);
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    
+}
+#header{
+    width: 100vw;
+    height: 8vh;
+    background-color: lightslategray;
+    text-align: center;
+    position: fixed;
+
+}
+#header_h1{
+    color: maroon;
+    padding: 10px;
+    font-size: 30px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+
+
+}
+h4{
+    color: snow;
+    padding: 1px;
+    font-style: italic;
+
+}
+#navbar{
+    height: 18vh;
+    width: 110%;
+    background-color: rgb(48, 45, 45);
+
+}
+#image{
+    position: relative;
+    margin: 20px;
+    height: 80px;
+    width: 200px;
+    top: 60px;
+    left:10px;
+}
+#list{
+    float: right;
+    align-items: center;
+
+}
+#list1{
+    float: right;
+    display: flex;
+   
+    align-items: center;
+    
+    position: relative;
+    top: 75px;;
+    right: 150px;
+    padding: 10px;
+    margin: 10px;
+    list-style-type: none;
+}
+.list_content{
+    padding: 10px;
+    margin: 8px;
+    background-color:rgb(95, 8, 8);
+    color:white;
+    font-size:20px;
+    border: 1px solid black;
+    border-radius: 10px;
+
+}
+.list_content:hover{
+    background-color: rgb(173, 64, 64)
+}
+#company_name{
+    color: rgba(192, 83, 10, 0.671);
+    font-style: italic;
+    font-size:70px;
+    position:absolute;
+    margin-left: 250px;
+    top:85px;
+    text-align: center;
+}
+#container{
+    height: 70vh;
+    width: 100vw;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: baseline;
+}
+.element{
+    padding: 10px;
+    margin: 10px;
+}
+    
+.images{
+    height: 200px;
+    width: 200px;
+}
+#footer{
+    background-color: rgb(66, 29, 29);
+    width: 110%;
+    height: 200px;
+    
+}
+#footer_list{
+    display: flex;
+    flex-direction: row;
+   justify-content: center;
+   align-items: center;
+   list-style-type: none;
+  
+}
+#footer_links{
+    padding: 10px;
+    margin: 30px;
+    text-align: center;
+    font-size: 1.6rem;
+    text-decoration:none;
+    
+}
